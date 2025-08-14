@@ -27,25 +27,25 @@ const NavBar = () => {
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Link className="navlink" to="/">
-              <NavText title="Home" />
+              <button>Home</button>
             </Link>
             <Link className="navlink" to="/about">
-              <NavText title="About" />
+              <button>About</button>
             </Link>
             {/* <Link className="navlink" to="/education">
               <NavText title="Education" />
             </Link> */}
             <Link className="navlink" to="/experience">
-              <NavText title="Experience" />
+              <button>Experience</button>
             </Link>
             {/* <Link className="navlink" to="/project">
               <NavText title="Projects" />
             </Link> */}
             <Link className="navlink" to="/skills">
-              <NavText title="Skills" />
+              <button>Skills</button>
             </Link>
             <Link className="navlink" to="/contact">
-              <NavText title="Contact" />
+              <button>Contact</button>
             </Link>
           </Nav>
         </Navbar.Collapse>
