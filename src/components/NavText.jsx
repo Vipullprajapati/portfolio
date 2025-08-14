@@ -1,9 +1,5 @@
-import React from 'react'
+const NavText = ({ title }) => {
+  return <h2>&lt; {title} /&gt;</h2>;
+};
 
-const NavText = ({title}) => {
-  return (
-    <h2>&lt; {title} /&gt;</h2>
-  )
-}
-
-export default NavText
+export default NavText;

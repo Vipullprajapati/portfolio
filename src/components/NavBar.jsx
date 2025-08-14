@@ -45,7 +45,7 @@ const NavBar = () => {
               <button>Skills</button>
             </Link>
             <Link className="navlink" to="/contact">
-              <button>Contact</button>
+              <NavText title="Contact" />
             </Link>
           </Nav>
         </Navbar.Collapse>

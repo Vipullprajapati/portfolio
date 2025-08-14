@@ -219,7 +219,7 @@ export const other = [
 
 export const aboutdetails = {
   name: "Mr Jonny Hardware & Software engineer ",
-  image: "./images/subbu.png",
+  image: "./images/self.png",
   // resumeLink: links.resumeLink,
   tagline: "bhai yha kuch likna baki hai 1",
   description:
@@ -232,7 +232,7 @@ export const experiencedata = [
     // title: "Web Development Intern.",
     // subtitle: "Ekathva Innovations Pvt. Ltd.",
     description: "bhai yha kuch likna baki hai",
-    image: "./images/ekatvaI.jpg",
+    image: "./images/emoji.png",
     githubLink: "#",
   },
   {
@@ -240,7 +240,7 @@ export const experiencedata = [
     // title: "Web Development and Design Intern .",
     // subtitle: "The Sparks Foundation.",
     description: "bhai yha kuch likna baki hai",
-    image: "./images/Thesparks.jpg",
+    image: "./images/emoji.png",
     githubLink: "#",
   },
 ];
@@ -285,14 +285,14 @@ export const socialIcon = [
     iconClass: "fa-fade",
     label: "facebook",
   },
-  {
-    id: 6,
-    href: links.instagramLink,
-    className: "instagram social",
-    icon: Instagram,
-    iconClass: "fa-spin",
-    label: "instagram",
-  },
+  // {
+  //   id: 6,
+  //   href: links.instagramLink,
+  //   className: "instagram social",
+  //   icon: Instagram,
+  //   iconClass: "fa-spin",
+  //   label: "instagram",
+  // },
   {
     id: 7,
     href: links.gmailLink,
@@ -304,14 +304,12 @@ export const socialIcon = [
 ];
 
 export const headerdata = {
-  image: "./images/avatar.png",
+  image: "./images/self.png",
   name: "Mr Jonny",
   typedarr: [
-    "Learner",
-    "Developer",
-    "Simple Coder",
-    "MERN Stack Developer",
-    "Open Source Contributor",
+    "Computer Repair Specialist",
+    "Hardware & Software Solutions",
+    "Reliable & Fast Service",
   ],
 };
 
