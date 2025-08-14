@@ -1,4 +1,4 @@
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Routing from "./routes/Routing";
 import { useSpinner } from "./hook/useSpinner";

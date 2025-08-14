@@ -1,5 +1,5 @@
-// import chat from "../assets/chatbot.png";
-// import user from "../assets/user.png";
+import chat from "../assets/chatbot.png";
+import user from "../assets/user.png";
 
 export const rules = {
   skills: ["skills", "expertise", "knowledge", "programming", "skill"],

@@ -30,7 +30,7 @@ const Skills = () => {
         <h4>&lt; Others &gt;</h4>
         <SkillsRow skill={other} />
       </Container>
-      {/* <Background id="tsparticles"/> */}
+      <Background id="tsparticles"/>
     </section>
   );
 };
