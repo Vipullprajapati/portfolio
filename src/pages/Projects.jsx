@@ -28,7 +28,7 @@ const Projects = () => {
           ))}
         </Row>
         <PillButton OnClick={() => window.open(
-          "https://github.com/SubramanyaKS?tab=repositories",
+          "#",
           "_blank"
         )} title="View More " Icon={ArrowBigRight}/>
         

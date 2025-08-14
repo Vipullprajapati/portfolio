@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-// import Background from '../components/Background';
+import Background from '../components/Background';
 import {
   programskills,
   databaseskills,
@@ -30,7 +30,7 @@ const Skills = () => {
         <h4>&lt; Others &gt;</h4>
         <SkillsRow skill={other} />
       </Container>
-      <Background id="tsparticles"/>
+      <Background id="tsparticles" />
     </section>
   );
 };
