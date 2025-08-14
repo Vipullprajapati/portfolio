@@ -10,114 +10,114 @@ import {
 } from "lucide-react";
 
 export const projectsdata = [
-  {
-    id: 1,
-    title: "Weather Application",
-    subtitle: "API Based Web Application",
-    description:
-      "Developed a web application which uses openweathermap API to fetch the weather details of various city across the globe by giving city name as input.Used Django as web framework.",
-    image: "./images/weather.jpg",
-    techStack: ["React JS", "Bootstrap"],
-    githubLink: "#",
-    websiteLink: "#",
-    downloadLink: null,
-  },
-  {
-    id: 2,
-    title: "React News App",
-    subtitle: "API Based Web Application.",
-    description:
-      "React JS-based online news web app that utilizes the NewsAPI.org API. It allows users to access and read news articles from a wide range of sources.",
-    image: "./images/news.jpg",
-    techStack: ["React JS", "Bootstrap"],
-    githubLink: "#",
-    websiteLink: null,
-    downloadLink: null,
-  },
-  {
-    id: 3,
-    title: "PhrasePic",
-    subtitle: "Image generator Website",
-    description:
-      "Application which generate Image based on the input prompt. It has developed using Next JS and Stability AI's Stable Diffusion model API hosted on Hugging Face",
-    image: "./images/ai.jpg",
-    techStack: ["Next JS", "React", "Generative AI"],
-    githubLink: "#",
-    websiteLink: null,
-    downloadLink: null,
-  },
-  {
-    id: 4,
-    title: "Media Player Application",
-    subtitle: "Android application.",
-    description:
-      "Application which play the audio and video and able to move forward and backword of media using button.",
-    image: "./images/media.jpg",
-    techStack: ["Android", "Java"],
-    githubLink: "#",
-    websiteLink: null,
-    downloadLink: null,
-  },
-  {
-    id: 5,
-    title: "Bus Reservation System",
-    subtitle: "A Dbms mini-project",
-    description:
-      "This Project is the DBMS mini-project and desktop application where we can reserve the bus seat,check the seat availability and view the seat arrangement do the payment after seat reservation.",
-    image: "./images/bus.jpg",
-    techStack: ["Java", "Oracle db"],
-    githubLink: "#",
-    websiteLink: null,
-    downloadLink: "#",
-  },
-  {
-    id: 6,
-    title: "Random Quote Generator.",
-    subtitle: "html javascript based web app.",
-    description:
-      "A simple web application which display the quote with both text and speech using random quote api.",
-    image: "./images/quote.jpg",
-    techStack: ["Javascript", "CSS", "HTML", "Bootstrap"],
-    githubLink: "#",
-    websiteLink: "#",
-    downloadLink: null,
-  },
-  {
-    id: 7,
-    title: "VTU SGPA CGPA Calculator.",
-    subtitle: "Java jar application.",
-    description:
-      "This project  which calculate the CGPA and SGPA of VTU students.Created both java jar application and android app",
-    image: "./images/cal.jpg",
-    techStack: ["Java", "Android"],
-    githubLink: "#",
-    websiteLink: null,
-    downloadLink: "#",
-  },
-  {
-    id: 8,
-    title: "Heart Disease Prediction System.",
-    subtitle: "Machine-learning project using regression model.",
-    description:
-      "This project predict the heart disease by various machine learning model using ‘heart.csv’ dataset.",
-    image: "./images/heart.jpg",
-    techStack: ["Python", "Jupyter Notebook"],
-    githubLink: "#",
-    websiteLink: null,
-    downloadLink: null,
-  },
-  {
-    id: 9,
-    title: "Diabeties Prediction System.",
-    subtitle: "Machine-learning project using regression model.",
-    description:
-      "In this project we determine the diabetes by building various machine learning model using ‘diabetes.csv’ dataset.",
-    image: "./images/diabeties.jpg",
-    techStack: ["Python", "Jupyter Notebook"],
-    githubLink: "#",
-    websiteLink: null,
-    downloadLink: null,
-  },
+  // {
+  //   id: 1,
+  //   title: "Weather Application",
+  //   subtitle: "API Based Web Application",
+  //   description:
+  //     "Developed a web application which uses openweathermap API to fetch the weather details of various city across the globe by giving city name as input.Used Django as web framework.",
+  //   image: "./images/weather.jpg",
+  //   techStack: ["React JS", "Bootstrap"],
+  //   githubLink: "#",
+  //   websiteLink: "#",
+  //   downloadLink: null,
+  // },
+  // {
+  //   id: 2,
+  //   title: "React News App",
+  //   subtitle: "API Based Web Application.",
+  //   description:
+  //     "React JS-based online news web app that utilizes the NewsAPI.org API. It allows users to access and read news articles from a wide range of sources.",
+  //   image: "./images/news.jpg",
+  //   techStack: ["React JS", "Bootstrap"],
+  //   githubLink: "#",
+  //   websiteLink: null,
+  //   downloadLink: null,
+  // },
+  // {
+  //   id: 3,
+  //   title: "PhrasePic",
+  //   subtitle: "Image generator Website",
+  //   description:
+  //     "Application which generate Image based on the input prompt. It has developed using Next JS and Stability AI's Stable Diffusion model API hosted on Hugging Face",
+  //   image: "./images/ai.jpg",
+  //   techStack: ["Next JS", "React", "Generative AI"],
+  //   githubLink: "#",
+  //   websiteLink: null,
+  //   downloadLink: null,
+  // },
+  // {
+  //   id: 4,
+  //   title: "Media Player Application",
+  //   subtitle: "Android application.",
+  //   description:
+  //     "Application which play the audio and video and able to move forward and backword of media using button.",
+  //   image: "./images/media.jpg",
+  //   techStack: ["Android", "Java"],
+  //   githubLink: "#",
+  //   websiteLink: null,
+  //   downloadLink: null,
+  // },
+  // {
+  //   id: 5,
+  //   title: "Bus Reservation System",
+  //   subtitle: "A Dbms mini-project",
+  //   description:
+  //     "This Project is the DBMS mini-project and desktop application where we can reserve the bus seat,check the seat availability and view the seat arrangement do the payment after seat reservation.",
+  //   image: "./images/bus.jpg",
+  //   techStack: ["Java", "Oracle db"],
+  //   githubLink: "#",
+  //   websiteLink: null,
+  //   downloadLink: "#",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Random Quote Generator.",
+  //   subtitle: "html javascript based web app.",
+  //   description:
+  //     "A simple web application which display the quote with both text and speech using random quote api.",
+  //   image: "./images/quote.jpg",
+  //   techStack: ["Javascript", "CSS", "HTML", "Bootstrap"],
+  //   githubLink: "#",
+  //   websiteLink: "#",
+  //   downloadLink: null,
+  // },
+  // {
+  //   id: 7,
+  //   title: "VTU SGPA CGPA Calculator.",
+  //   subtitle: "Java jar application.",
+  //   description:
+  //     "This project  which calculate the CGPA and SGPA of VTU students.Created both java jar application and android app",
+  //   image: "./images/cal.jpg",
+  //   techStack: ["Java", "Android"],
+  //   githubLink: "#",
+  //   websiteLink: null,
+  //   downloadLink: "#",
+  // },
+  // {
+  //   id: 8,
+  //   title: "Heart Disease Prediction System.",
+  //   subtitle: "Machine-learning project using regression model.",
+  //   description:
+  //     "This project predict the heart disease by various machine learning model using ‘heart.csv’ dataset.",
+  //   image: "./images/heart.jpg",
+  //   techStack: ["Python", "Jupyter Notebook"],
+  //   githubLink: "#",
+  //   websiteLink: null,
+  //   downloadLink: null,
+  // },
+  // {
+  //   id: 9,
+  //   title: "Diabeties Prediction System.",
+  //   subtitle: "Machine-learning project using regression model.",
+  //   description:
+  //     "In this project we determine the diabetes by building various machine learning model using ‘diabetes.csv’ dataset.",
+  //   image: "./images/diabeties.jpg",
+  //   techStack: ["Python", "Jupyter Notebook"],
+  //   githubLink: "#",
+  //   websiteLink: null,
+  //   downloadLink: null,
+  // },
 ];
 export const programskills = [
   {
@@ -218,30 +218,28 @@ export const other = [
 ];
 
 export const aboutdetails = {
-  name: "Mr Jonny",
+  name: "Mr Jonny Hardware & Software engineer ",
   image: "./images/subbu.png",
-  resumeLink: links.resumeLink,
-  tagline: "Learner|Programmer|Developer",
+  // resumeLink: links.resumeLink,
+  tagline: "bhai yha kuch likna baki hai 1",
   description:
-    " A frontend developer based in Karnataka,India. I am currently working in Infosys. I passionate about upgrading my skills and also likes to get my hand dirty on new technology. I start my day with motive on being better then previous day. Learn new skills that helped me to do better work.I'm constantly open to new ideas and always look to reach out to others, share and discuss ideas with them, thereby learn and also help others grow too",
+    "I am a skilled computer repair technician with hands-on experience in fixing a wide range of computer problems, including hardware issues, software errors, system formatting, upgrades, virus removal, and general maintenance. I am confident in troubleshooting and repairing laptops, desktops, and peripherals of all brands.",
 };
 
 export const experiencedata = [
   {
     id: 1,
-    title: "Web Development Intern.",
-    subtitle: "Ekathva Innovations Pvt. Ltd.",
-    description:
-      "Done a Project titled 'Django Based REST API development for Ayucare Management'.One month online industry level internship helped me to gain knowledge about recent technology, ideologies and aesthetics of the company.Learnt about Django and REST API",
+    // title: "Web Development Intern.",
+    // subtitle: "Ekathva Innovations Pvt. Ltd.",
+    description: "bhai yha kuch likna baki hai",
     image: "./images/ekatvaI.jpg",
     githubLink: "#",
   },
   {
     id: 2,
-    title: "Web Development and Design Intern .",
-    subtitle: "The Sparks Foundation.",
-    description:
-      "My First Internship helped me to gain some knowledge on web development. Worked on the project title 'Basic Banking System' which is demonstrate the basic banking operation.",
+    // title: "Web Development and Design Intern .",
+    // subtitle: "The Sparks Foundation.",
+    description: "bhai yha kuch likna baki hai",
     image: "./images/Thesparks.jpg",
     githubLink: "#",
   },
@@ -263,14 +261,14 @@ export const socialIcon = [
     iconClass: "fa-flip",
     label: "github",
   },
-  {
-    id: 3,
-    href: links.youtubeLink,
-    className: "youtube social",
-    icon: Youtube,
-    iconClass: "fa-beat",
-    label: "youtube",
-  },
+  // {
+  //   id: 3,
+  //   href: links.youtubeLink,
+  //   className: "youtube social",
+  //   icon: Youtube,
+  //   iconClass: "fa-beat",
+  //   label: "youtube",
+  // },
   {
     id: 4,
     href: links.twitterLink,
