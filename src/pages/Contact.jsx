@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-// import Background from "../components/Background";
+import Background from "../components/Background";
 import ContactForm from "../components/ContactForm";
 import Heading from "../components/common/Heading";
 import ContactIcons from "../components/ContactIcons";
@@ -12,8 +12,7 @@ const Contact = () => {
       <Container fluid>
         <Container>
           <p>
-            If you have any question or do you want to contact me, please free
-            to email me.
+            Yha pr kuch update krna hai.
           </p>
           <ContactForm />
         </Container>

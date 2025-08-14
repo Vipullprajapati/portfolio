@@ -32,15 +32,15 @@ const NavBar = () => {
             <Link className="navlink" to="/about">
               <NavText title="About" />
             </Link>
-            <Link className="navlink" to="/education">
+            {/* <Link className="navlink" to="/education">
               <NavText title="Education" />
-            </Link>
+            </Link> */}
             <Link className="navlink" to="/experience">
               <NavText title="Experience" />
             </Link>
-            <Link className="navlink" to="/project">
+            {/* <Link className="navlink" to="/project">
               <NavText title="Projects" />
-            </Link>
+            </Link> */}
             <Link className="navlink" to="/skills">
               <NavText title="Skills" />
             </Link>
