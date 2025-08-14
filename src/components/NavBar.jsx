@@ -21,7 +21,7 @@ const NavBar = () => {
             color: "#00ff0d",
           }}
         >
-          &lt;$ubramanya K $/&gt;
+          Mr Jonny
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
