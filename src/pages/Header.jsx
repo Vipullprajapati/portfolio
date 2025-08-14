@@ -1,9 +1,9 @@
 import React from "react";
-import { ReactTyped } from "react-typed";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Row, Col, Container } from 'react-bootstrap';
+// import { ReactTyped } from "react-typed";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import { Row, Col, Container } from 'react-bootstrap';
 // import Background from '../components/Background';
-import SocialMediaIcons from "../components/SocialMediaIcons";
+// import SocialMediaIcons from "../components/SocialMediaIcons";
 import Reveal from "../components/common/Reveal";
 import { headerdata } from "../data/data";
 import HeaderPhoto from "../components/HeaderPhoto";
