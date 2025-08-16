@@ -218,7 +218,7 @@ export const other = [
 ];
 
 export const aboutdetails = {
-  name: "Mr Jonny Hardware & Software engineer ",
+  name: "Mr Abhishek Hardware & Software engineer ",
   image: "./images/self.png",
   // resumeLink: links.resumeLink,
   tagline: "bhai yha kuch likna baki hai 1",

@@ -16,10 +16,10 @@ const Header = () => {
           <Col className="col-lg-6 col-mg-12 py-3 mr-auto">
             <div className="ps-5">
               <Reveal>
-                <h1 className="mb-3 text-center hi">Hi, I'm </h1>
+                <h1 className="mb-3 text-center hi">Hi, I'm Abhishek</h1>
               </Reveal>
               <Reveal>
-                <h1 className="mb-3 fs-1">{headerdata.name}</h1>
+                <h1 className="mb-3 fs-1">{name}</h1>
               </Reveal>
               {/* </Center> */}
               <p className="react-typed">
