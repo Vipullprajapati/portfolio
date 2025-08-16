@@ -1,15 +1,15 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
 import { useFormData } from "../hook/useFormData";
-import { Send } from "lucide-react";
+// import { Send } from "lucide-react";
 
 function ContactForm() {
   const { formData, handleChange, sendEmail } = useFormData();
 
   return (
     <Form onSubmit={(e) => sendEmail(e)} className="m-5 p-3 contact-form">
-      {/* <h5 className='text-white'>Get in Touch</h5>
-      <Form.Group className="m-3 " controlId="formName">
+      <h5 className='text-white'>Get In Touch</h5>
+      {/* <Form.Group className="m-3 " controlId="formName">
         <Form.Control name="name" value={formData.name} onChange={(e)=>handleChange("name",e.target.value)} className="text-white bg-dark" type="text" placeholder="Your Name" />
       </Form.Group>
       <Form.Group className="m-3" controlId="formBasicEmail">

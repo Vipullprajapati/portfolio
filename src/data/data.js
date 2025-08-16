@@ -305,7 +305,7 @@ export const socialIcon = [
 
 export const headerdata = {
   image: "./images/self.png",
-  name: "Mr Jonny",
+  name: "Mr vipul",
   typedarr: [
     "Computer Repair Specialist",
     "Hardware & Software Solutions",

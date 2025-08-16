@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Background from '../components/Background';
+import Background from "../components/Background";
 import {
   programskills,
   databaseskills,
@@ -17,17 +17,19 @@ const Skills = () => {
     <section className="skills py-5">
       <Heading title=" Skills" />
       <Container fluid className="App py-2 overflow-hidden">
-        <h4>&lt; Programming Language &gt;</h4>
+        <h4>&lt; Computer Hardware Architecture &gt;</h4>
         <SkillsRow skill={programskills} />
-        <h4>&lt; Database &gt;</h4>
+        <h4>&lt; Input/Output Device Integration &gt;</h4>
         <SkillsRow skill={databaseskills} />
-        <h4>&lt; Web Development &gt;</h4>
+        <h4>&lt; Peripheral Device Management &gt;</h4>
         <SkillsRow skill={webskills} />
-        <h4>&lt; Framework &gt;</h4>
+        <h4>&lt; I/O Interface Standards (USB, HDMI, SATA, etc.) &gt;</h4>
         <SkillsRow skill={framework} />
-        <h4>&lt; IDE &gt;</h4>
+        <h4>&lt; Embedded Systems I/O Handling;</h4>
         <SkillsRow skill={ide} />
-        <h4>&lt; Others &gt;</h4>
+        <h4>&lt; Interrupt Handling & DMA (Direct Memory Access) &gt;</h4>
+        <SkillsRow skill={other} />
+        <h4>&lt; Sensor Integration & Data Processing) &gt;</h4>
         <SkillsRow skill={other} />
       </Container>
       <Background id="tsparticles" />
