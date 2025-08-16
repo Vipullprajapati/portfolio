@@ -1,12 +1,12 @@
 export const  links = {
-    resumeLink: "https://drive.google.com/file/d/15V_I5zW-iQ8eYWvtQEmi6sZ-6DgWGvya/view",
-    githubLink:"https://github.com/SubramanyaKS",
-    linkedinLink: "https://www.linkedin.com/in/subramanyakshebbar/",
-    youtubeLink:"https://www.youtube.com/@subramanyakshebbar/",
-    twitterLink: "https://twitter.com/subbukshebbar",
+    resumeLink: "#",
+    githubLink:"https://github.com/vipullprajapati",
+    linkedinLink: "#",
+    youtubeLink:"#",
+    twitterLink: "#",
     instagramLink:"",
-    facebookLink:"https://www.facebook.com/profile.php?id=100070944345090",
-    gmailLink:"mailto:subramanyaks22@gmail.com",
+    facebookLink:"#",
+    gmailLink:"mailto:kannojiyaa214@gmail.com",
 }
 export const skillImage={
     c:"https://img.icons8.com/color/48/000000/c-programming.png",

@@ -2,11 +2,11 @@ import { links, skillImage } from "../utils/constant";
 import {
   Facebook,
   Github,
-  Instagram,
+  // Instagram,
   Linkedin,
   Mail,
   X,
-  Youtube,
+  // Youtube,
 } from "lucide-react";
 
 export const projectsdata = [
@@ -120,101 +120,101 @@ export const projectsdata = [
   // },
 ];
 export const programskills = [
-  {
-    id: 1,
-    image: skillImage.c,
-  },
-  {
-    id: 2,
-    image: skillImage.java,
-  },
-  {
-    id: 3,
-    image: skillImage.python,
-  },
+  // {
+  //   id: 1,
+  //   image: skillImage.c,
+  // },
+  // {
+  //   id: 2,
+  //   image: skillImage.java,
+  // },
+  // {
+  //   id: 3,
+  //   image: skillImage.python,
+  // },
 ];
 
 export const databaseskills = [
-  {
-    id: 1,
-    image: skillImage.mysql,
-  },
-  {
-    id: 2,
-    image: skillImage.mongodb,
-  },
-  {
-    id: 3,
-    image: skillImage.postgres,
-  },
+  // {
+  //   id: 1,
+  //   image: skillImage.mysql,
+  // },
+  // {
+  //   id: 2,
+  //   image: skillImage.mongodb,
+  // },
+  // {
+  //   id: 3,
+  //   image: skillImage.postgres,
+  // },
 ];
 
 export const webskills = [
-  {
-    id: 1,
-    image: skillImage.css,
-  },
-  {
-    id: 2,
-    image: skillImage.html,
-  },
-  {
-    id: 3,
-    image: skillImage.javascript,
-  },
-  {
-    id: 4,
-    image: skillImage.react,
-  },
+  // {
+  //   id: 1,
+  //   image: skillImage.css,
+  // },
+  // {
+  //   id: 2,
+  //   image: skillImage.html,
+  // },
+  // {
+  //   id: 3,
+  //   image: skillImage.javascript,
+  // },
+  // {
+  //   id: 4,
+  //   image: skillImage.react,
+  // },
 ];
 
 export const ide = [
-  {
-    id: 1,
-    image: skillImage.vscode,
-  },
-  {
-    id: 2,
-    image: skillImage.eclipse,
-  },
+  // {
+  //   id: 1,
+  //   image: skillImage.vscode,
+  // },
+  // {
+  //   id: 2,
+  //   image: skillImage.eclipse,
+  // },
 ];
 
 export const framework = [
-  {
-    id: 1,
-    image: skillImage.node,
-  },
-  {
-    id: 2,
-    image: skillImage.bootstrap,
-  },
-  {
-    id: 3,
-    image: skillImage.reactnative,
-  },
-  {
-    id: 4,
-    image: skillImage.flask,
-  },
-  {
-    id: 5,
-    image: skillImage.django,
-  },
+  // {
+  //   id: 1,
+  //   image: skillImage.node,
+  // },
+  // {
+  //   id: 2,
+  //   image: skillImage.bootstrap,
+  // },
+  // {
+  //   id: 3,
+  //   image: skillImage.reactnative,
+  // },
+  // {
+  //   id: 4,
+  //   image: skillImage.flask,
+  // },
+  // {
+  //   id: 5,
+  //   image: skillImage.django,
+  // },
 ];
 
 export const other = [
-  {
-    id: 1,
-    image: skillImage.git,
-  },
-  {
-    id: 2,
-    image: skillImage.android,
-  },
-  {
-    id: 3,
-    image: skillImage.postman,
-  },
+  // {
+  //   id: 1,
+  //   image: skillImage.git,
+  // },
+  // {
+  //   id: 2,
+  //   image: skillImage.android,
+  // },
+  // {
+  //   id: 3,
+  //   image: skillImage.postman,
+  // },
 ];
 
 export const aboutdetails = {
